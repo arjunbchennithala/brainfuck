@@ -3,7 +3,7 @@
 brainf is a simple BrainFuck language compiler made by Arjun
 
 Usage :
-	brainf "brainf <inputfilename> <outputfilename_optional>"
+	"brainf <inputfilename> <outputfilename_optional>"
 
 
 To compile and install :

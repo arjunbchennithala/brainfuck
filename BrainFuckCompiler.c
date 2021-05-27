@@ -58,7 +58,7 @@ void writeDestFile(char *str){
 }
 
 void closeDestFile(){
-	fprintf(dest, "}\n");
+	fprintf(dest, "printf(\"\\n\");\n}\n");
 	fclose(dest);
 	fclose(source);
 }
