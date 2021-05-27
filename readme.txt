@@ -1,6 +1,6 @@
 
 
-brainf is a simple BrainFuck language compiler made by ArjunBChennithala
+brainf is a simple BrainFuck language compiler made by Arjun
 
 Usage :
 	brainf "brainf <inputfilename> <outputfilename_optional>"
