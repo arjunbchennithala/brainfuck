@@ -26,15 +26,13 @@ int compile(){
 char *interpreter(char c){
 	switch(c){
 		case '>':
-			return "p = (p==300) ? 300 : ++p;\n";
+			return "p++;\n";
 		case '<':
-			return "p = (p==0) ? 0 : --p;\n";
+			return "p--;\n";
 		case '+':
-			return "a[p] = (p>=127) ? 127 : ++a[p];\n";
-			//return "a[p]++;\n";
+			return "a[p]++;\n";
 		case '-':
-			return "a[p] = (p<=0) ? 0 : --a[p];\n";
-			//return "a[p]--;\n";
+			return "a[p]--;\n";
 		case '[':
 			return "while(a[p]){\n";
 		case ']':
