@@ -1,5 +1,5 @@
-brainf : BrainFuckCompiler.c
-	gcc BrainFuckCompiler.c -o brainf
+brainf : brainf.c
+	gcc brainf.c -o brainf
 
 install : 
 	cp brainf /usr/bin/
