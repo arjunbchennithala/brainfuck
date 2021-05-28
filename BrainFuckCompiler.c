@@ -42,7 +42,7 @@ char *interpreter(char c){
 		case '.':
 			return "printf(\"%c\", a[p]);\n";
 		default:
-			return "\n";
+			return "";
 	}
 }
 
